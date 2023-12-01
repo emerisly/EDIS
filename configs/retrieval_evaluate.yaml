@@ -1,0 +1,25 @@
+# change image_root to directory of downloaded EDIS dataset images
+image_root: '/data/user/edis/images/'
+ann_root: 'edis'
+dataset: 'edis'
+
+# set pretrained as a file path or an url
+pretrained: 'output/retrieval_edis_mblip_4gpus_5e-5/checkpoint_best.pth'
+
+# size of vit model; base or large
+
+# vit: 'base'
+# batch_size_test: 64
+# vit_grad_ckpt: True
+# vit_ckpt_layer: 4
+
+vit: 'large'
+batch_size_test: 128
+vit_grad_ckpt: True
+vit_ckpt_layer: 12
+
+image_size: 384
+queue_size: 57600
+alpha: 0.4
+k_test: 256
+negative_all_rank: True
