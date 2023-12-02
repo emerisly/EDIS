@@ -1,7 +1,7 @@
 # EDIS: Entity-Driven Image Search over Multimodal Web Content
 Arxiv: https://arxiv.org/abs/2305.13631
 
-## Abstract
+## Introduction
 We introduce **E**ntity-**D**riven **I**mage **S**earch (EDIS), a challenging dataset for cross-modal image search in the news domain. EDIS consists of 1 million web images from actual search engine results and curated datasets, with each image paired with a textual description.  
 Our experimental results show that EDIS challenges state-of-the-art methods with dense entities and a large-scale candidate set.
 
@@ -11,6 +11,7 @@ Our experimental results show that EDIS challenges state-of-the-art methods with
 ## Environment
 ```
 git clone https://github.com/emerisly/EDIS.git
+cd EDIS/
 conda create -n edis
 conda activate edis
 pip install -r requirements.txt
